@@ -1,0 +1,24 @@
+POST http://localhost:5000/book
+Content-Type: application/json
+
+{
+    "title":"huletu jiretoch",
+    "author":"kalab",
+    "publishYear":76
+}
+
+###
+GET httP://localhost:5000/book
+
+###
+PUT http://localhost:5000/book/656adaa210bb81eb9fe25489
+Content-Type: application/json
+
+{
+     "title":"corontos",
+    "author":"saint paul",
+    "publishYear":65 
+}
+
+###
+DELETE http://localhost:5000/book/656adaa210bb81eb9fe25489
